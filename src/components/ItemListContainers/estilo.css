@@ -1,0 +1,21 @@
+main{
+    text-align: center;
+    height: 580px;
+    background-color: rgb(55, 82, 82);
+}
+h2{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.productos{
+    margin: 0;
+margin-bottom: 10px;
+
+}

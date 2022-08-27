@@ -1,9 +1,9 @@
 import logo from '../../logo.svg';
 import "./styles.css";
-
+import CartWidget from './CartWidget/CartWidget';
 const NavBar = () =>{
     return(
-    
+         
         <div className='NavBar-container'>
           <div> <img src={logo} width={"50px"} alt= "logo"/></div>  
           <div>
@@ -16,8 +16,9 @@ const NavBar = () =>{
               <li><a href='#'>Postre</a></li>
               </ul>
            </div> 
-          <div><button>Login</button></div> 
+          <div><button><CartWidget/></button></div> 
         </div>
+      
     )
 }
 export default NavBar
