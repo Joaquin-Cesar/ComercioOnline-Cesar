@@ -1,0 +1,16 @@
+.contador{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+}
+
+.sumador, .restador{
+    height: 25px;
+    margin: 10px;
+}
+
+.cantidad{
+    padding-top: 0;
+    margin-bottom:0;
+}

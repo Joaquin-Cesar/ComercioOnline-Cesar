@@ -1,9 +1,14 @@
 import React from 'react';
 import "./estilo.css"
-
+import ItemsCount from './ItemsCount/ItemsCount';
 const ItemListContainers = ({nombre}) => {
     return (
-      <li className='productos'> {nombre}</li>
+      <>
+      <div className='productos'>
+      <li className='producto'> {nombre}</li>
+      <ItemsCount />
+      </div>
+      </>
     )
   }
   
