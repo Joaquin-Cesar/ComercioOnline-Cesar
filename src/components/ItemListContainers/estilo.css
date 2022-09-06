@@ -1,6 +1,6 @@
 main{
     text-align: center;
-    height: 580px;
+    height: 1100px;
     background-color: rgb(55, 82, 82);
 }
 h2{
@@ -10,8 +10,13 @@ h2{
 }
 .items{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   
+}
+
+.contenedorPadre{
+    margin: 20px;
 }
 
 .producto{
