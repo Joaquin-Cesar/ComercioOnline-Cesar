@@ -9,7 +9,7 @@ debugger
             <img src={imagen} alt={nombre}/>
             <div>
               <h5>{nombre}</h5>
-              <p> {precio}</p>
+            <p> {precio}</p>
               <button className={id}>Comprar</button>
             </div>
           </div>

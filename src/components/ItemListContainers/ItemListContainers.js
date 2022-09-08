@@ -12,6 +12,7 @@ const ItemListContainers = () => {
   })
 
    useEffect(() => {
+    
    getData.then((result)=>{
     setItems(result)
     console.log(result)
