@@ -2,7 +2,7 @@ const data = [
    { "id":0,
     "nombre":"MEGA NOT BURGER DELUX",
     "precio": 600,
-    "imagen": "/img/h1.jpg"
+    "imagen": "img/h1.jpg"
 },
 {
     "id":1,

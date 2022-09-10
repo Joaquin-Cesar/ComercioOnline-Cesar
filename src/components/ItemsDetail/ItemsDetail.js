@@ -1,11 +1,13 @@
 import React from 'react'
 import Items from '../Items/Items'
 const ItemsDetail =({itemsDetail}) =>{
-console.log(itemsDetail)
+
+    const Item = itemsDetail.filter((el) =>el.id===0)
+    console.log(Item)
     return (
     <>
     
-    {itemsDetail.map((producto)=>{
+    {Item.map((producto)=>{
     
 
     return(

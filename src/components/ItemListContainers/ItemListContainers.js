@@ -1,6 +1,6 @@
 import React from 'react';
-import "./estilo.css"
-import data from './mock-data';
+import '../ItemListContainers/estilo.css'
+import data from '../ItemDetailContainers/mock-data';
 import ItemsList from '../ItemsList/ItemsList';
 import { useState, useEffect } from 'react';
 const ItemListContainers = () => {
@@ -15,7 +15,7 @@ const ItemListContainers = () => {
     
    getData.then((result)=>{
     setItems(result)
-    console.log(result)
+  
    })
    }, [])
   return (

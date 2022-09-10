@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Items = ({id, nombre, precio, imagen}) => {
-debugger
+
   return (
    <>
    
